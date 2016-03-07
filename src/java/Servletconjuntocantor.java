@@ -32,13 +32,46 @@ public class Servletconjuntocantor extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
+            double b=0.333333333;
+            double c=0.666666666;
+            double d=0.111111111;
+            double e=0.222222222;
+            double f=0.777777777;
+            double g=0.888888888;
             String numero1=request.getParameter("numero");
             double numero2=Double.parseDouble(numero1);
-            if(numero2>=0.333 &numero2<=0.666)
-                out.println("<h1>tu numero esta en la primera iteracion "  + "</h1>");
+            if(numero2>b &numero2<c)
+                out.println("<h1>el numero salio en la primera iteracion "  + "</h1>");
             else
-//                if(numero2>=0 &numero2<=1)
-                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+
+//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+                if(numero2>e &numero2<b)
+                    out.println("<h1>el numero salio en la segunda iteracion "  + "</h1>");
+            else
+
+//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+                if(numero2>d &numero2<e)
+                    out.println("<h1>el numero salio en la tercera iteracion "  + "</h1>");
+            else
+
+//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+                if(numero2>0 &numero2<d)
+                    out.println("<h1>el numero salio en la cuarta iteracion "  + "</h1>");
+            else
+
+//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+                if(numero2>c &numero2<f)
+                    out.println("<h1>el numero salio en la quinta iteracion "  + "</h1>");
+            else
+
+//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+                if(numero2>f &numero2<g)
+                    out.println("<h1>el numero salio en la sexta iteracion "  + "</h1>");
+            else
+
+//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+                if(numero2>g &numero2<1)
+                    out.println("<h1>el numero salio en la septima iteracion iteracion "  + "</h1>");
             /* TODO output your page here. You may use following sample code. */
            
             out.println("<html>");
