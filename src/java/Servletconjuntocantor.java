@@ -44,33 +44,33 @@ public class Servletconjuntocantor extends HttpServlet {
                 out.println("<h1>el numero salio en la primera iteracion "  + "</h1>");
             else
 
-//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+//             
                 if(numero2>e &numero2<b)
                     out.println("<h1>el numero salio en la segunda iteracion "  + "</h1>");
             else
 
-//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+//       
                 if(numero2>d &numero2<e)
                     out.println("<h1>el numero salio en la tercera iteracion "  + "</h1>");
             else
 
-//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
-                if(numero2>0 &numero2<d)
+//                
+                if(numero2>=0 &numero2<d)
                     out.println("<h1>el numero salio en la cuarta iteracion "  + "</h1>");
             else
 
-//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+//             
                 if(numero2>c &numero2<f)
                     out.println("<h1>el numero salio en la quinta iteracion "  + "</h1>");
             else
 
-//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
+//                
                 if(numero2>f &numero2<g)
                     out.println("<h1>el numero salio en la sexta iteracion "  + "</h1>");
             else
 
-//                out.println("<h1>tu numero esta fuera de rango "  + "</h1>");
-                if(numero2>g &numero2<1)
+//               
+                if(numero2>g &numero2<=1)
                     out.println("<h1>el numero salio en la septima iteracion iteracion "  + "</h1>");
             /* TODO output your page here. You may use following sample code. */
            
@@ -81,7 +81,7 @@ public class Servletconjuntocantor extends HttpServlet {
             out.println("<body>");
             
                     
-            out.println("<h1>tu numero es : " + request.getParameter("numero") + "</h1>");
+            out.println("<h1>El numero ingresado es : " + request.getParameter("numero") + "</h1>");
             
             
           

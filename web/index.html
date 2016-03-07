@@ -12,7 +12,7 @@ and open the template in the editor.
         <script src="validacion.js" type="text/javascript"></script>
     </head>
     <body>
-        <form action="Servlet" name="numeros"  method="post">
+        <form name="numeros" action="Servlet" onsubmit="return validateForm()"   method="post">
             ingrese numero entre 0 y 1 :
             <input type="text" name="numero" >
             <input type="submit"  value="enviar">

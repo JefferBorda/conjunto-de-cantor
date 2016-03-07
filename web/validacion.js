@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 function validateForm(){
-    var numerov=document.forms["myForm"]["numero"].value;
-    if(numerov>0 & numerov<1){
-        alert("el numero ingresado no es valido");
+    var numerov=document.forms["numeros"]["numero"].value;
+    if(numerov==null || numerov=="" || numerov<0 || numerov>1){
+        alert("el numero ingresado no es valido o ha ingresado un caracter");
         return false;
     }
 }
