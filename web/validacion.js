@@ -6,7 +6,7 @@
 function validateForm(){
     var numerov=document.forms["numeros"]["numero"].value;
     if(numerov==null || numerov=="" || numerov<0 || numerov>1){
-        alert("el numero ingresado no es valido o ha ingresado un caracter");
+        alert("el numero ingresado no es valido ");
         return false;
     }
 }

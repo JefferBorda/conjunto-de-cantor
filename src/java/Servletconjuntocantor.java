@@ -73,7 +73,10 @@ public class Servletconjuntocantor extends HttpServlet {
                 if(numero2>g &numero2<=1)
                     out.println("<h1>el numero salio en la septima iteracion iteracion "  + "</h1>");
             /* TODO output your page here. You may use following sample code. */
+          
+            
            
+                   
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet ejemplo</title>");            
